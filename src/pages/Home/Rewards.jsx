@@ -16,7 +16,7 @@ export default function Rewards() {
     >
       <img src={rewardsBg} className="ml-auto" alt="" />
       <div className="container">
-        <div className="-mt-[500px]">
+        <div className="-mt[300px] md:-mt-[500px]">
           <h4 className="text-2xl md:text-3xl font-bold text-white mb-2">
             Get rewarded for your participation.
           </h4>
