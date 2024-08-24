@@ -5,38 +5,38 @@ export default function HowWorks() {
   return (
     <section className="py-20">
       <div className="container">
-        <div className="grid grid-cols-2 gap-5">
-          <div className="flex items-center justify-center h-full">
-            <div>
-              <h3 className="text-4xl font-bold text-black mb-5">
+        <div className="md:grid grid-cols-2 gap-5">
+          <div className="flex items-center md:justify-center h-full">
+            <div className="mb-5 md:mb-0">
+              <h3 className="text-2xl md:text-4xl font-bold text-black mb-5">
                 3 SIMPLE STEPS
               </h3>
               <ul>
-                <li className="flex items-center text-4xl mb-5 text-3xl font-bold">
+                <li className="flex items-center text-xl md:text-4xl mb-3 md:mb-5 text-3xl font-bold">
                   <MdCheckBox className="mr-3 text-[#d81033]" /> Participate In
                   Surveys
                 </li>
-                <li className="flex items-center text-4xl mb-5 text-3xl font-bold">
+                <li className="flex items-center text-xl md:text-4xl mb-3 md:mb-5 text-3xl font-bold">
                   <MdCheckBox className="mr-3 text-[#d81033]" /> Provide Your
                   Loyal Opinion
                 </li>
-                <li className="flex items-center text-4xl mb-5 text-3xl font-bold">
+                <li className="flex items-center text-xl md:text-4xl mb-3 md:mb-5 text-3xl font-bold">
                   <MdCheckBox className="mr-3 text-[#d81033]" /> Earn Rewards
                 </li>
               </ul>
             </div>
           </div>
           <div>
-            <h5 className="text-xl font-bold uppercase text-[#d81033] mb-5">
+            <h5 className="text-lg md:text-xl font-bold uppercase text-[#d81033] mb-5">
               How It Works
             </h5>
 
-            <h3 className="text-5xl font-bold text-black mb-5">
+            <h3 className="text-3xl md:text-5xl font-bold text-black mb-5">
               Share your opinions through paid online surveys and make your
               voice heard.
             </h3>
 
-            <p className="text-lg">
+            <p className="text-md md:text-lg">
               We highly value the time and insights you contribute through our
               surveys. When you become a member of Valued Opinions, you have the
               opportunity to earn between $10 and $30 for each paid survey you

@@ -17,10 +17,10 @@ export default function Rewards() {
       <img src={rewardsBg} className="ml-auto" alt="" />
       <div className="container">
         <div className="-mt-[500px]">
-          <h4 className="text-3xl font-bold text-white mb-2">
+          <h4 className="text-2xl md:text-3xl font-bold text-white mb-2">
             Get rewarded for your participation.
           </h4>
-          <p className="text-xl text-white">
+          <p className="text -lg md:text-xl text-white">
             Our rewards program offers popular giftcards
             <br />
             and cashouts via PayPal.
@@ -29,11 +29,19 @@ export default function Rewards() {
           <div className="flex pt-5">
             <img
               src={AmazonCard}
-              className="h-[150px] rounded-md mr-2"
+              className="h-[50px] md:h-[150px] rounded-md mr-2"
               alt=""
             />
-            <img src={AppleCard} className="h-[150px] rounded-md mr-2" alt="" />
-            <img src={PaypalCard} className="h-[150px] rounded-md" alt="" />
+            <img
+              src={AppleCard}
+              className="h-[50px] md:h-[150px] rounded-md mr-2"
+              alt=""
+            />
+            <img
+              src={PaypalCard}
+              className="h-[50px] md:h-[150px] rounded-md"
+              alt=""
+            />
           </div>
           {/* See all gift cards */}
           <div className="pb-10">
