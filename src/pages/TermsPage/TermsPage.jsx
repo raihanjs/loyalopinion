@@ -1,5 +1,6 @@
 import React from "react";
 import SectionTitleBlack from "../../components/Titles/SectionTitleBlack";
+import { Link } from "react-router-dom";
 
 export default function TermsPage() {
   return (
@@ -25,7 +26,11 @@ export default function TermsPage() {
           <p className="mb-3 text-justify">
             Please note that these terms are subject to change. For details on
             how we handle your data, refer to our
-            <span className="text-cyan-500"> Privacy Policy</span>.
+            <span className="text-cyan-500">
+              {" "}
+              <Link to="/privacy">Privacy Policy</Link>
+            </span>
+            .
           </p>
           <p className="mb-3 text-justify">
             These General Terms & Conditions/Terms of Use include a waiver of

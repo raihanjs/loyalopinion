@@ -8,7 +8,7 @@ export default function Footer() {
           <a href="/help">Help</a>
           <a href="/about">About US</a>
           <a href="/terms">Terms & Conditions</a>
-          <a href="">Privacy</a>
+          <a href="/privacy">Privacy</a>
         </div>
         <div>
           ©2024 Valued Opinions. Valued Opinions is a trademark of Dynata Global

@@ -7,6 +7,7 @@ import RewardsPage from "../pages/RewardsPage/RewardsPage";
 import HowItWorksPage from "../pages/HowItWorksPage/HowItWorksPage";
 import HelpPage from "../pages/HelpPage/HelpPage";
 import TermsPage from "../pages/TermsPage/TermsPage";
+import PrivacyPage from "../pages/PrivacyPage/PrivacyPage";
 
 export const Router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ export const Router = createBrowserRouter([
       {
         path: "/terms",
         element: <TermsPage />,
+      },
+      {
+        path: "/privacy",
+        element: <PrivacyPage />,
       },
     ],
   },
