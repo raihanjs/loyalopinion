@@ -1,5 +1,4 @@
 import React from "react";
-import hero from "../../assets/hero.webp";
 import { PrimaryButton } from "../../components/Buttons";
 
 export default function Hero({ img, title, subTitle }) {

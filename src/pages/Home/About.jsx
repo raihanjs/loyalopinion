@@ -3,19 +3,20 @@ import showPhone from "../../assets/payment/show-phone.jpg";
 import { PrimaryButton } from "../../components/Buttons";
 import { Link } from "react-router-dom";
 
+import SectionTitleBlack from "../../components/Titles/SectionTitleBlack";
+import SectionTitleRed from "../../components/Titles/SectionTitleRed";
+
 export default function About() {
   return (
     <section className="py-20 bg-slate-50">
       <div className="container">
         <div className="md:grid grid-cols-2 gap-5">
           <div>
-            <h5 className="text-lg md:text-xl font-bold uppercase text-[#d81033] mb-5">
-              About Loyal Opinion
-            </h5>
-            <h3 className="text-3xl md:text-5xl font-bold text-black mb-5">
-              The premiere choice for maximizing your digital sales and user
-              retention!
-            </h3>
+            <SectionTitleRed txt="About Loyal Opinion" />
+            <SectionTitleBlack
+              txt="The premiere choice for maximizing your digital sales and user
+              retention!"
+            />
             <p className="text-md md:text-lg mb-3">
               Founded in January 2024, our survey site is dedicated to providing
               a platform where your opinions truly matter. As we launch our

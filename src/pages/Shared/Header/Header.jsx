@@ -8,13 +8,13 @@ export default function Header() {
   const menuItems = (
     <>
       <Link
-        to="rewards"
+        to="/rewards"
         className="text-md md:text-lg font-medium transition duration-300 hover:bg-slate-50 md:hover:bg-[#d81033] py-2 px-5 md:p-0"
       >
         REWARDS
       </Link>
       <Link
-        to="about"
+        to="/about"
         className="text-md md:text-lg font-medium transition duration-300 hover:bg-slate-50 md:hover:bg-[#d81033] py-2 px-5 md:p-0"
       >
         ABOUT
@@ -26,7 +26,7 @@ export default function Header() {
         HOW IT WORKS
       </Link>
       <Link
-        to="take-survey"
+        to="/take-survey"
         className="text-md md:text-lg font-medium transition duration-300 hover:bg-slate-50 md:hover:bg-[#d81033] py-2 px-5 md:p-0"
       >
         TAKE SURVEY

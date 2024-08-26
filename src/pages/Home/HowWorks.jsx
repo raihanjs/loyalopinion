@@ -1,5 +1,7 @@
 import React from "react";
 import { MdCheckBox } from "react-icons/md";
+import SectionTitleRed from "../../components/Titles/SectionTitleRed";
+import SectionTitleBlack from "../../components/Titles/SectionTitleBlack";
 
 export default function HowWorks() {
   return (
@@ -27,14 +29,11 @@ export default function HowWorks() {
             </div>
           </div>
           <div>
-            <h5 className="text-lg md:text-xl font-bold uppercase text-[#d81033] mb-5">
-              How It Works
-            </h5>
-
-            <h3 className="text-3xl md:text-5xl font-bold text-black mb-5">
-              Share your opinions through paid online surveys and make your
-              voice heard.
-            </h3>
+            <SectionTitleRed txt="How It Works" />
+            <SectionTitleBlack
+              txt="Share your opinions through paid online surveys and make your
+              voice heard."
+            />
 
             <p className="text-md md:text-lg mb-3">
               Get started by choosing from a variety of surveys available on our

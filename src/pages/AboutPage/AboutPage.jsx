@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
-import aboutImg from "../../assets/about.jpeg";
 import Hero from "../../components/Hero/Hero";
 import { PrimaryButton } from "../../components/Buttons";
+
+import aboutImg from "../../assets/about.jpeg";
+import SectionTitleRedBlack from "../../components/Titles/SectionTitleRedBlack";
 
 export default function AboutPage() {
   return (
@@ -14,9 +16,8 @@ export default function AboutPage() {
       <section className="container py-5 md:py-0">
         <div className="md:flex items-center">
           <div className="md:w-6/12 md:p-5">
-            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-2">
-              What is <span className="text-[#d81033]">Loyal Opinions?</span>
-            </h3>
+            <SectionTitleRedBlack black="What is" red="Loyal Opinions?" />
+
             <p className="text-lg mb-2">
               Loyal Opinions is a trusted market research panel established in
               2024. Our members participate in online surveys, diary studies, or
@@ -50,12 +51,10 @@ export default function AboutPage() {
               <img src="https://vopassets.imgix.net/vop4rewards.jpg" alt="" />
             </div>
             <div className="md:w-6/12 md:p-5">
-              <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-2">
-                Take paid online surveys and
-                <span className="text-[#d81033]">
-                  &nbsp;earn great rewards.
-                </span>
-              </h3>
+              <SectionTitleRedBlack
+                black="Take paid online surveys and"
+                red="earn great rewards."
+              />
               <p className="text-lg mb-2">
                 <strong>Loyal Opinions</strong> online surveys play a crucial
                 role in shaping the future of products and services. Leading
@@ -79,10 +78,11 @@ export default function AboutPage() {
       <section className="container py-5">
         <div className="md:flex gap-5 items-center ">
           <div className="md:w-6/12 py-5 md:py-0">
-            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-2">
-              Joining Loyal Opinions is
-              <span className="text-[#d81033]"> quick and easy</span>
-            </h3>
+            <SectionTitleRedBlack
+              black="Joining Loyal Opinions is"
+              red="quick and easy"
+            />
+
             <p>
               All you have to do to start taking paid surveys is complete a
               short registration form , then verify your identity. Once you're a
@@ -93,10 +93,11 @@ export default function AboutPage() {
             </p>
           </div>
           <div className="md:w-6/12">
-            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-2">
-              We provide a great online survey experience and{" "}
-              <span className="text-[#d81033]">rewards to match</span>
-            </h3>
+            <SectionTitleRedBlack
+              black="We provide a great online survey experience and"
+              red="rewards to match"
+            />
+
             <p>
               As a Loyal Opinions member, you will be regularly invited to take
               part in paid market research, in the form of online surveys and
@@ -110,10 +111,11 @@ export default function AboutPage() {
       <section className="py-5 bg-slate-50">
         <div className="container md:flex gap-5 items-center">
           <div className="md:w-6/12 py-5 md:py-0">
-            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-2">
-              Get the most from your{" "}
-              <span className="text-[#d81033]">membership</span>
-            </h3>
+            <SectionTitleRedBlack
+              black="Get the most from your"
+              red="membership"
+            />
+
             <p>
               Keep your profile information up to date to ensure you receive
               surveys that are most relevant to you. The more relevant the
@@ -130,10 +132,11 @@ export default function AboutPage() {
             </p>
           </div>
           <div className="md:w-6/12">
-            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-2">
-              Your information is{" "}
-              <span className="text-[#d81033]">safe with us</span>
-            </h3>
+            <SectionTitleRedBlack
+              black="Your information is"
+              red="safe with us"
+            />
+
             <p>
               The protection of your data is one of our primary concerns and our
               commitment to privacy and fair data use has been independently
@@ -169,9 +172,7 @@ export default function AboutPage() {
         </div>
       </section>
       <section className="container py-10">
-        <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-2">
-          Further <span className="text-[#d81033]">Information</span>
-        </h3>
+        <SectionTitleRedBlack black="Further" red="Information" />
         <p>
           If you have any problems or questions at all, please check out our
           FAQs or feel free to contact us if you can’t find what you’re looking
