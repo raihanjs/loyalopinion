@@ -1,35 +1,36 @@
 import React, { useState } from "react";
 import { FaBars } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   const menuItems = (
     <>
-      <a
-        href=""
+      <Link
+        to="rewards"
         className="text-md md:text-lg font-medium transition duration-300 hover:bg-slate-50 md:hover:bg-[#d81033] py-2 px-5 md:p-0"
       >
         REWARDS
-      </a>
-      <a
-        href=""
+      </Link>
+      <Link
+        to="about"
         className="text-md md:text-lg font-medium transition duration-300 hover:bg-slate-50 md:hover:bg-[#d81033] py-2 px-5 md:p-0"
       >
         ABOUT
-      </a>
-      <a
-        href=""
+      </Link>
+      <Link
+        to="how-it-works"
         className="text-md md:text-lg font-medium transition duration-300 hover:bg-slate-50 md:hover:bg-[#d81033] py-2 px-5 md:p-0"
       >
         HOW IT WORKS
-      </a>
-      <a
-        href=""
+      </Link>
+      <Link
+        to="take-survey"
         className="text-md md:text-lg font-medium transition duration-300 hover:bg-slate-50 md:hover:bg-[#d81033] py-2 px-5 md:p-0"
       >
         TAKE SURVEY
-      </a>
+      </Link>
     </>
   );
 
@@ -38,9 +39,9 @@ export default function Header() {
       <div className="container mx-auto py-4 px-2 md:px-4 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center">
-          <p className="text-xl md:text-2xl font-bold text-white">
+          <Link to="/" className="text-xl md:text-2xl font-bold text-white">
             Loyal Opinion
-          </p>
+          </Link>
         </div>
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-3 md:gap-8 text-white">

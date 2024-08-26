@@ -36,16 +36,21 @@ export default function HowWorks() {
               voice heard.
             </h3>
 
+            <p className="text-md md:text-lg mb-3">
+              Get started by choosing from a variety of surveys available on our
+              platform. Each survey is tailored to your interests, ensuring that
+              your feedback is relevant and valuable.
+            </p>
+            <p className="text-md md:text-lg mb-3">
+              Share your honest opinions and insights through our
+              easy-to-complete surveys. Your voice helps shape the future of
+              products and services, making a real impact in the market.
+            </p>
             <p className="text-md md:text-lg">
-              We highly value the time and insights you contribute through our
-              surveys. When you become a member of Valued Opinions, you have the
-              opportunity to earn between $10 and $30 for each paid survey you
-              complete. Your earnings can be redeemed for gift cards from some
-              of the most popular retailers, including Amazon.com, Macy’s, and
-              Target. Whether you’re sharing your opinion on the latest products
-              or giving feedback on services, your participation is rewarded
-              with gift cards that you can use at your favorite stores. Join us
-              today and start turning your opinions into rewards!
+              After completing surveys, you'll earn points that can be redeemed
+              for exciting rewards, including Amazon gift cards, Apple gift
+              cards, PayPal, and more. The more surveys you take, the more you
+              earn!
             </p>
 
             <button className="mt-8 inline-block bg-[#d81033] hover:bg-[#9b181b] text-white font-medium py-3 px-6 rounded-md transition duration-300">
