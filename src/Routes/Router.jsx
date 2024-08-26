@@ -5,6 +5,7 @@ import Home from "../pages/Home/Home";
 import AboutPage from "../pages/AboutPage/AboutPage";
 import RewardsPage from "../pages/RewardsPage/RewardsPage";
 import HowItWorksPage from "../pages/HowItWorksPage/HowItWorksPage";
+import HelpPage from "../pages/HelpPage/HelpPage";
 
 export const Router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ export const Router = createBrowserRouter([
       {
         path: "/how-it-works",
         element: <HowItWorksPage />,
+      },
+      {
+        path: "/help",
+        element: <HelpPage />,
       },
     ],
   },

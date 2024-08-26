@@ -5,10 +5,9 @@ export default function Footer() {
     <footer className="bg-[#2c324ad9] text-white">
       <div className="container">
         <div className="flex gap-3 md:gap-5 py-5">
-          <a href="">Help</a>
-          <a href="">About US</a>
-          <a href="">Affiliates</a>
-          <a href="">Legal</a>
+          <a href="/help">Help</a>
+          <a href="/about">About US</a>
+          <a href="">Terms & Conditions</a>
           <a href="">Privacy</a>
         </div>
         <div>
