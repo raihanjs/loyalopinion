@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="flex gap-3 md:gap-5 py-5">
           <a href="/help">Help</a>
           <a href="/about">About US</a>
-          <a href="">Terms & Conditions</a>
+          <a href="/terms">Terms & Conditions</a>
           <a href="">Privacy</a>
         </div>
         <div>
