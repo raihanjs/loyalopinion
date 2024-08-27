@@ -8,7 +8,7 @@ export default function QualifyOne() {
       <div className="bg-red-500 p-2">
         <p>Completed 0%</p>
       </div>
-      <div className="w-6/12 mx-auto my-12">
+      <div className="md:w-6/12 mx-auto my-12">
         <h2 className="text-4xl font-bold text-center mb-5">Loyal Opinion</h2>
         <p className="mb-5">
           To take advantage of this rewards opportunity, I hereby direct Loyal

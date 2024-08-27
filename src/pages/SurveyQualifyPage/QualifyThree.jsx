@@ -52,7 +52,7 @@ export default function QualifyThree() {
       <div className="bg-red-500 p-2">
         <p>Completed 5%</p>
       </div>
-      <div className="w-6/12 mx-auto my-12">
+      <div className="md:w-6/12 mx-auto my-12">
         <form className="max-w-sm mx-auto" onSubmit={handleSubmit}>
           <div className="mb-5">
             <label
