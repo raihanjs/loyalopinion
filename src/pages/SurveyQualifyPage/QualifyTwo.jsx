@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function QualifyTwo() {
   const navigate = useNavigate();
@@ -38,12 +38,11 @@ export default function QualifyTwo() {
     setDetails(newDetails);
 
     setEmptyFields(hasEmptyProperty(details));
-    console.log(emptyFields);
   };
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    navigate("/rewards");
+    navigate("/survey/qualify-question-3");
   };
 
   return (
