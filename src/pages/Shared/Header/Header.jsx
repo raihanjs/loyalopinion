@@ -38,7 +38,7 @@ export default function Header() {
         onClick={() => {
           setToggleMenu(false);
         }}
-        to="/take-survey"
+        to="/survey"
         className="text-md md:text-lg font-medium transition duration-300 hover:bg-slate-50 md:hover:bg-[#d81033] py-2 px-5 md:p-0"
       >
         TAKE SURVEY

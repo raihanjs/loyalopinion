@@ -8,6 +8,9 @@ import HowItWorksPage from "../pages/HowItWorksPage/HowItWorksPage";
 import HelpPage from "../pages/HelpPage/HelpPage";
 import TermsPage from "../pages/TermsPage/TermsPage";
 import PrivacyPage from "../pages/PrivacyPage/PrivacyPage";
+import QualifyOne from "../pages/SurveyQualifyPage/QualifyOne";
+import SurveyLayout from "../Layouts/SurveyLayout/SurveyLayout";
+import QualifyTwo from "../pages/SurveyQualifyPage/QualifyTwo";
 
 export const Router = createBrowserRouter([
   {
@@ -41,6 +44,20 @@ export const Router = createBrowserRouter([
       {
         path: "/privacy",
         element: <PrivacyPage />,
+      },
+    ],
+  },
+  {
+    path: "/survey",
+    element: <SurveyLayout />,
+    children: [
+      {
+        path: "/survey",
+        element: <QualifyOne />,
+      },
+      {
+        path: "qualify-question-2",
+        element: <QualifyTwo />,
       },
     ],
   },
