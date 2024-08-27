@@ -50,7 +50,7 @@ export default function QualifyOne() {
               htmlFor="bordered-radio-1"
               className="w-full py-4 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
             >
-              Default radio
+              I agree
             </label>
           </div>
 
@@ -69,7 +69,7 @@ export default function QualifyOne() {
               htmlFor="bordered-radio-2"
               className="w-full py-4 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
             >
-              Default radio
+              I disagree
             </label>
           </div>
 

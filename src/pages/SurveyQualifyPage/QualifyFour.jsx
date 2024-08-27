@@ -1,17 +1,17 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-export default function QualifyTwo() {
+export default function QualifyFour() {
   const navigate = useNavigate();
   const [emptyFields, setEmptyFields] = useState(true);
   const [details, setDetails] = useState({
-    name: "",
-    gender: "",
-    age: "",
-    country: "",
-    state: "",
-    zip: "",
-    phone: "",
+    area: "",
+    married: "",
+    person: "",
+    children: "",
+    house: "",
+    decesion: "",
+    check: "",
   });
 
   function hasEmptyProperty(obj) {
@@ -38,202 +38,163 @@ export default function QualifyTwo() {
     const newDetails = { ...details, [target]: value };
     setDetails(newDetails);
 
-    setEmptyFields(hasEmptyProperty(details));
+    let isEmpty = hasEmptyProperty(details);
+    setEmptyFields(isEmpty);
   };
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    navigate("/survey/qualify-question-3");
+    navigate("/survey/qualify-question-5");
   };
+
+  console.log(details);
 
   return (
     <section>
       <div className="bg-red-500 p-2">
-        <p>Completed 1%</p>
+        <p>Completed 15%</p>
       </div>
       <div className="w-6/12 mx-auto my-12">
         <form className="max-w-sm mx-auto" onSubmit={handleSubmit}>
           <div className="mb-5">
             <label
-              htmlFor="name"
+              htmlFor="area"
               className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
             >
-              Your Name
+              Your Living Area Is In
+            </label>
+            <select
+              id="area"
+              name="area"
+              onChange={handleChange}
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
+            >
+              <option value="">Select Area</option>
+              <option value="no ">Urban Area</option>
+              <option value="primary_1_4">Sub Urban Area</option>
+              <option value="primary_5_8">Rural Area</option>
+              <option value="prefer_not_to_say">Prefer not to say</option>
+            </select>
+          </div>
+          <div className="mb-5">
+            <label
+              htmlFor="married"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >
+              Your Status
+            </label>
+            <select
+              id="married"
+              name="married"
+              onChange={handleChange}
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
+            >
+              <option value="">Select Status</option>
+              <option value="un">Unmarried</option>
+              <option value="part">Married</option>
+              <option value="full">Single</option>
+              <option value="self">Living With Partner</option>
+              <option value="not">Prferred Not To Say</option>
+            </select>
+          </div>
+
+          <div className="mb-5">
+            <label
+              htmlFor="person"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >
+              How Many Person Living In Your Home (including yourself)
             </label>
             <input
               type="text"
-              id="name"
-              name="name"
+              id="person"
+              name="person"
               onChange={handleChange}
-              placeholder="John Doe"
+              placeholder="2"
               className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               required
             />
           </div>
           <div className="mb-5">
             <label
-              htmlFor="gender"
+              htmlFor="children"
               className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
             >
-              Are You?
-            </label>
-            <select
-              id="gender"
-              name="gender"
-              onChange={handleChange}
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-              required
-            >
-              <option value="">Select Your Gender</option>
-              <option value="male">Male</option>
-              <option value="female">Female</option>
-              <option value="other">Others</option>
-              <option value="not">Prefer Not To Say</option>
-            </select>
-          </div>
-          <div className="mb-5">
-            <label
-              htmlFor="age"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-            >
-              Date of Birth
+              Any Children Living In Your Home (Less than 18 years)
             </label>
             <input
               type="text"
-              id="age"
-              name="age"
+              id="children"
+              name="children"
               onChange={handleChange}
-              placeholder="12 May 1997"
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-              required
-            />
-          </div>
-          <div className="mb-5">
-            <label
-              htmlFor="country"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-            >
-              Select Your Country
-            </label>
-            <select
-              id="country"
-              name="country"
-              onChange={handleChange}
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-              required
-            >
-              <option value="">Choose a country</option>
-              <option value="us">United States</option>
-              <option value="os">Others</option>
-            </select>
-            {details.country === "os" && (
-              <p className="text-sm text-red-500">
-                You must have to be from USA
-              </p>
-            )}
-          </div>
-          <div className="mb-5">
-            <label
-              htmlFor="state"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-            >
-              Select Your State
-            </label>
-            <select
-              id="state"
-              name="state"
-              onChange={handleChange}
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-              required
-            >
-              <option value="">Choose Your State</option>
-              <option value="al">Alabama</option>
-              <option value="ak">Alaska</option>
-              <option value="az">Arizona</option>
-              <option value="ar">Arkansas</option>
-              <option value="ca">California</option>
-              <option value="co">Colorado</option>
-              <option value="ct">Connecticut</option>
-              <option value="de">Delaware</option>
-              <option value="fl">Florida</option>
-              <option value="ga">Georgia</option>
-              <option value="hi">Hawaii</option>
-              <option value="id">Idaho</option>
-              <option value="il">Illinois</option>
-              <option value="in">Indiana</option>
-              <option value="ia">Iowa</option>
-              <option value="ks">Kansas</option>
-              <option value="ky">Kentucky</option>
-              <option value="la">Louisiana</option>
-              <option value="me">Maine</option>
-              <option value="md">Maryland</option>
-              <option value="ma">Massachusetts</option>
-              <option value="mi">Michigan</option>
-              <option value="mn">Minnesota</option>
-              <option value="ms">Mississippi</option>
-              <option value="mo">Missouri</option>
-              <option value="mt">Montana</option>
-              <option value="ne">Nebraska</option>
-              <option value="nv">Nevada</option>
-              <option value="nh">New Hampshire</option>
-              <option value="nj">New Jersey</option>
-              <option value="nm">New Mexico</option>
-              <option value="ny">New York</option>
-              <option value="nc">North Carolina</option>
-              <option value="nd">North Dakota</option>
-              <option value="oh">Ohio</option>
-              <option value="ok">Oklahoma</option>
-              <option value="or">Oregon</option>
-              <option value="pa">Pennsylvania</option>
-              <option value="ri">Rhode Island</option>
-              <option value="sc">South Carolina</option>
-              <option value="sd">South Dakota</option>
-              <option value="tn">Tennessee</option>
-              <option value="tx">Texas</option>
-              <option value="ut">Utah</option>
-              <option value="vt">Vermont</option>
-              <option value="va">Virginia</option>
-              <option value="wa">Washington</option>
-              <option value="wv">West Virginia</option>
-              <option value="wi">Wisconsin</option>
-              <option value="wy">Wyoming</option>
-            </select>
-          </div>
-          <div className="mb-5">
-            <label
-              htmlFor="zip"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-            >
-              Zip Code
-            </label>
-            <input
-              type="text"
-              id="zip"
-              name="zip"
-              onChange={handleChange}
-              placeholder="29401"
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-              required
-            />
-          </div>
-          <div className="mb-5">
-            <label
-              htmlFor="phone"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-            >
-              Phone Number
-            </label>
-            <input
-              type="text"
-              id="phone"
-              name="phone"
-              onChange={handleChange}
-              placeholder="1-123-456-7890"
+              placeholder="2"
               className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               required
             />
           </div>
 
+          <div className="mb-5">
+            <label
+              htmlFor="house"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >
+              Is the house you live in your own or rented?
+            </label>
+            <select
+              id="house"
+              name="house"
+              onChange={handleChange}
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
+            >
+              <option value="">Select</option>
+
+              <option value="ceo">Own</option>
+              <option value="vp">Rent</option>
+              <option value="prefer_not_to_say">Prefer not to say</option>
+            </select>
+          </div>
+          <div className="mb-5">
+            <label
+              htmlFor="decesion"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >
+              In Your Household Who Is The Decesion Maker?
+            </label>
+            <select
+              id="decesion"
+              name="decesion"
+              onChange={handleChange}
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
+            >
+              <option value="">Select</option>
+
+              <option value="executive">Myself</option>
+              <option value="operations">Someone Else</option>
+              <option value="prefer_not_to_say">Prefer not to say</option>
+            </select>
+          </div>
+
+          <div className="mb-5">
+            <label
+              htmlFor="check"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >
+              Write Anything In The Box
+            </label>
+            <input
+              type="text"
+              id="check"
+              name="check"
+              onChange={handleChange}
+              placeholder="check"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
+            />
+          </div>
           {!emptyFields ? (
             <input
               type="submit"

@@ -12,6 +12,8 @@ import QualifyOne from "../pages/SurveyQualifyPage/QualifyOne";
 import SurveyLayout from "../Layouts/SurveyLayout/SurveyLayout";
 import QualifyTwo from "../pages/SurveyQualifyPage/QualifyTwo";
 import QualifyThree from "../pages/SurveyQualifyPage/QualifyThree";
+import QualifyFour from "../pages/SurveyQualifyPage/QualifyFour";
+import QualifyFive from "../pages/SurveyQualifyPage/QualifyFive";
 
 export const Router = createBrowserRouter([
   {
@@ -63,6 +65,14 @@ export const Router = createBrowserRouter([
       {
         path: "qualify-question-3",
         element: <QualifyThree />,
+      },
+      {
+        path: "qualify-question-4",
+        element: <QualifyFour />,
+      },
+      {
+        path: "qualify-question-5",
+        element: <QualifyFive />,
       },
     ],
   },
