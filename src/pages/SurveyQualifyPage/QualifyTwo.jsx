@@ -1,9 +1,34 @@
 import { useState } from "react";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 
 export default function QualifyTwo() {
-  const [ageErr, setAgeErr] = useState(false);
-  const [countryErr, setCountryErr] = useState(false);
-  const [details, setDetails] = useState({ age: "", country: "", state: "" });
+  const navigate = useNavigate();
+  const [emptyFields, setEmptyFields] = useState(true);
+  const [details, setDetails] = useState({
+    name: "",
+    age: "",
+    country: "",
+    state: "",
+    zip: "",
+    phone: "",
+  });
+
+  function hasEmptyProperty(obj) {
+    for (let key in obj) {
+      if (obj.hasOwnProperty(key)) {
+        const value = obj[key];
+        if (
+          value === null ||
+          value === undefined ||
+          value === "" ||
+          (Array.isArray(value) && value.length === 0)
+        ) {
+          return true;
+        }
+      }
+    }
+    return false;
+  }
 
   const handleChange = (event) => {
     const target = event.target.name;
@@ -11,16 +36,15 @@ export default function QualifyTwo() {
 
     const newDetails = { ...details, [target]: value };
     setDetails(newDetails);
+
+    setEmptyFields(hasEmptyProperty(details));
+    console.log(emptyFields);
   };
 
   const handleSubmit = (event) => {
     event.preventDefault();
-
-    // details.age !== "" ? setAgeErr(false) : setAgeErr(true);
-    // details.country !== "" ? setCountryErr(false) : setCountryErr(true);
+    navigate("/rewards");
   };
-
-  console.log(details.country);
 
   return (
     <section>
@@ -31,25 +55,37 @@ export default function QualifyTwo() {
         <form className="max-w-sm mx-auto" onSubmit={handleSubmit}>
           <div className="mb-5">
             <label
+              htmlFor="name"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >
+              Your Name
+            </label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              onChange={handleChange}
+              placeholder="John Doe"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
+            />
+          </div>
+          <div className="mb-5">
+            <label
               htmlFor="age"
               className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
             >
-              Select Your Age
+              Date of Birth
             </label>
-            <select
+            <input
+              type="text"
               id="age"
               name="age"
               onChange={handleChange}
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            >
-              <option value="">Select Your Age</option>
-              <option value="24">18-24</option>
-              <option value="32">25-32</option>
-              <option value="40">33-40</option>
-              <option value="50">41-50</option>
-              <option value="60">51-60</option>
-              <option value="61">60+</option>
-            </select>
+              placeholder="12 May 1997"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
+            />
           </div>
           <div className="mb-5">
             <label
@@ -62,13 +98,14 @@ export default function QualifyTwo() {
               id="country"
               name="country"
               onChange={handleChange}
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
             >
               <option value="">Choose a country</option>
               <option value="us">United States</option>
-              <option value="">Others</option>
+              <option value="os">Others</option>
             </select>
-            {details.country.length < 1 && (
+            {details.country === "os" && (
               <p className="text-sm text-red-500">
                 You must have to be from USA
               </p>
@@ -85,7 +122,8 @@ export default function QualifyTwo() {
               id="state"
               name="state"
               onChange={handleChange}
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
             >
               <option value="">Choose Your State</option>
               <option value="al">Alabama</option>
@@ -140,8 +178,54 @@ export default function QualifyTwo() {
               <option value="wy">Wyoming</option>
             </select>
           </div>
+          <div className="mb-5">
+            <label
+              htmlFor="zip"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >
+              Zip Code
+            </label>
+            <input
+              type="text"
+              id="zip"
+              name="zip"
+              onChange={handleChange}
+              placeholder="29401"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
+            />
+          </div>
+          <div className="mb-5">
+            <label
+              htmlFor="phone"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >
+              Phone Number
+            </label>
+            <input
+              type="text"
+              id="phone"
+              name="phone"
+              onChange={handleChange}
+              placeholder="1-123-456-7890"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
+            />
+          </div>
 
-          <input type="submit" value="Submit" />
+          {!emptyFields ? (
+            <input
+              type="submit"
+              className="text-lg font-bold bg-cyan-500 text-white py-2 px-20 cursor-pointer"
+              defaultValue="Continue"
+            />
+          ) : (
+            <input
+              type="submit"
+              className="text-lg font-bold bg-cyan-100 text-white py-2 px-20"
+              defaultValue="Continue"
+            />
+          )}
         </form>
       </div>
     </section>
