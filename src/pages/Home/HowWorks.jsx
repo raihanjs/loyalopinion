@@ -2,6 +2,7 @@ import React from "react";
 import { MdCheckBox } from "react-icons/md";
 import SectionTitleRed from "../../components/Titles/SectionTitleRed";
 import SectionTitleBlack from "../../components/Titles/SectionTitleBlack";
+import { Link } from "react-router-dom";
 
 export default function HowWorks() {
   return (
@@ -53,7 +54,7 @@ export default function HowWorks() {
             </p>
 
             <button className="mt-8 inline-block bg-[#d81033] hover:bg-[#9b181b] text-white font-medium py-3 px-6 rounded-md transition duration-300">
-              Learn More
+              <Link to="/how-it-works">Learn More</Link>
             </button>
           </div>
         </div>
