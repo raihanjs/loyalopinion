@@ -56,7 +56,7 @@ export default function QualifyTwo() {
           <div className="mb-5">
             <label
               htmlFor="name"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-sm font-medium text-gray-900"
             >
               Your Name
             </label>
@@ -66,14 +66,14 @@ export default function QualifyTwo() {
               name="name"
               onChange={handleChange}
               placeholder="John Doe"
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
               required
             />
           </div>
           <div className="mb-5">
             <label
               htmlFor="gender"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-sm font-medium text-gray-900"
             >
               Are You?
             </label>
@@ -81,7 +81,7 @@ export default function QualifyTwo() {
               id="gender"
               name="gender"
               onChange={handleChange}
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
               required
             >
               <option value="">Select Your Gender</option>
@@ -94,7 +94,7 @@ export default function QualifyTwo() {
           <div className="mb-5">
             <label
               htmlFor="age"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-sm font-medium text-gray-900"
             >
               Date of Birth
             </label>
@@ -104,14 +104,14 @@ export default function QualifyTwo() {
               name="age"
               onChange={handleChange}
               placeholder="12 May 1997"
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
               required
             />
           </div>
           <div className="mb-5">
             <label
               htmlFor="country"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-sm font-medium text-gray-900"
             >
               Select Your Country
             </label>
@@ -119,7 +119,7 @@ export default function QualifyTwo() {
               id="country"
               name="country"
               onChange={handleChange}
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
               required
             >
               <option value="">Choose a country</option>
@@ -135,7 +135,7 @@ export default function QualifyTwo() {
           <div className="mb-5">
             <label
               htmlFor="state"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-sm font-medium text-gray-900"
             >
               Select Your State
             </label>
@@ -143,7 +143,7 @@ export default function QualifyTwo() {
               id="state"
               name="state"
               onChange={handleChange}
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
               required
             >
               <option value="">Choose Your State</option>
@@ -202,7 +202,7 @@ export default function QualifyTwo() {
           <div className="mb-5">
             <label
               htmlFor="zip"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-sm font-medium text-gray-900"
             >
               Zip Code
             </label>
@@ -212,14 +212,14 @@ export default function QualifyTwo() {
               name="zip"
               onChange={handleChange}
               placeholder="29401"
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
               required
             />
           </div>
           <div className="mb-5">
             <label
               htmlFor="phone"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-sm font-medium text-gray-900"
             >
               Phone Number
             </label>
@@ -229,7 +229,7 @@ export default function QualifyTwo() {
               name="phone"
               onChange={handleChange}
               placeholder="1-123-456-7890"
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
               required
             />
           </div>

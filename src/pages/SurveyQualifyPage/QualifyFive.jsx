@@ -56,7 +56,7 @@ export default function QualifyFive() {
           <div className="mb-5">
             <label
               htmlFor="games"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-sm font-medium text-gray-900"
             >
               How Many Hours Do You Play Games In A Week
             </label>
@@ -64,7 +64,7 @@ export default function QualifyFive() {
               id="games"
               name="games"
               onChange={handleChange}
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
               required
             >
               <option value="">Select Hours</option>
@@ -81,7 +81,7 @@ export default function QualifyFive() {
           <div className="mb-5">
             <label
               htmlFor="tv"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-sm font-medium text-gray-900"
             >
               How Many Hours Do You Watch TV In A Week
             </label>
@@ -89,7 +89,7 @@ export default function QualifyFive() {
               id="tv"
               name="tv"
               onChange={handleChange}
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
               required
             >
               <option value="">Select Hours</option>
@@ -106,7 +106,7 @@ export default function QualifyFive() {
           <div className="mb-5">
             <label
               htmlFor="music"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-sm font-medium text-gray-900"
             >
               How Many Hours Do You Listen Music In A Week
             </label>
@@ -114,7 +114,7 @@ export default function QualifyFive() {
               id="music"
               name="music"
               onChange={handleChange}
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
               required
             >
               <option value="">Select Hours</option>
@@ -131,7 +131,7 @@ export default function QualifyFive() {
           <div className="mb-5">
             <label
               htmlFor="sports"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-sm font-medium text-gray-900"
             >
               How Many Hours Do You Participate Sports In A Week
             </label>
@@ -139,7 +139,7 @@ export default function QualifyFive() {
               id="sports"
               name="sports"
               onChange={handleChange}
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
               required
             >
               <option value="">Select Hours</option>
@@ -155,7 +155,7 @@ export default function QualifyFive() {
           <div className="mb-5">
             <label
               htmlFor="restaurant"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-sm font-medium text-gray-900"
             >
               How Many Times In A Week You Go To Restaurant
             </label>
@@ -163,7 +163,7 @@ export default function QualifyFive() {
               id="restaurant"
               name="restaurant"
               onChange={handleChange}
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
               required
             >
               <option value="">Select</option>
@@ -178,7 +178,7 @@ export default function QualifyFive() {
           <div className="mb-5">
             <label
               htmlFor="check"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-sm font-medium text-gray-900"
             >
               Write Anything In The Box
             </label>
@@ -188,7 +188,7 @@ export default function QualifyFive() {
               name="check"
               onChange={handleChange}
               placeholder="check"
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
               required
             />
           </div>

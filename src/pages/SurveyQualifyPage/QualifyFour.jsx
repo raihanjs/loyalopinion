@@ -59,7 +59,7 @@ export default function QualifyFour() {
           <div className="mb-5">
             <label
               htmlFor="area"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-sm font-medium text-gray-900"
             >
               Your Living Area Is In
             </label>
@@ -67,7 +67,7 @@ export default function QualifyFour() {
               id="area"
               name="area"
               onChange={handleChange}
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
               required
             >
               <option value="">Select Area</option>
@@ -80,7 +80,7 @@ export default function QualifyFour() {
           <div className="mb-5">
             <label
               htmlFor="married"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-sm font-medium text-gray-900"
             >
               Your Status
             </label>
@@ -88,7 +88,7 @@ export default function QualifyFour() {
               id="married"
               name="married"
               onChange={handleChange}
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
               required
             >
               <option value="">Select Status</option>
@@ -103,7 +103,7 @@ export default function QualifyFour() {
           <div className="mb-5">
             <label
               htmlFor="person"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-sm font-medium text-gray-900"
             >
               How Many Person Living In Your Home (including yourself)
             </label>
@@ -113,14 +113,14 @@ export default function QualifyFour() {
               name="person"
               onChange={handleChange}
               placeholder="2"
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
               required
             />
           </div>
           <div className="mb-5">
             <label
               htmlFor="children"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-sm font-medium text-gray-900"
             >
               Any Children Living In Your Home (Less than 18 years)
             </label>
@@ -130,7 +130,7 @@ export default function QualifyFour() {
               name="children"
               onChange={handleChange}
               placeholder="2"
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
               required
             />
           </div>
@@ -138,7 +138,7 @@ export default function QualifyFour() {
           <div className="mb-5">
             <label
               htmlFor="house"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-sm font-medium text-gray-900"
             >
               Is the house you live in your own or rented?
             </label>
@@ -146,7 +146,7 @@ export default function QualifyFour() {
               id="house"
               name="house"
               onChange={handleChange}
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
               required
             >
               <option value="">Select</option>
@@ -159,7 +159,7 @@ export default function QualifyFour() {
           <div className="mb-5">
             <label
               htmlFor="decesion"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-sm font-medium text-gray-900"
             >
               In Your Household Who Is The Decesion Maker?
             </label>
@@ -167,7 +167,7 @@ export default function QualifyFour() {
               id="decesion"
               name="decesion"
               onChange={handleChange}
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
               required
             >
               <option value="">Select</option>
@@ -181,7 +181,7 @@ export default function QualifyFour() {
           <div className="mb-5">
             <label
               htmlFor="check"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-sm font-medium text-gray-900"
             >
               Write Anything In The Box
             </label>
@@ -191,7 +191,7 @@ export default function QualifyFour() {
               name="check"
               onChange={handleChange}
               placeholder="check"
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
               required
             />
           </div>

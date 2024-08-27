@@ -57,7 +57,7 @@ export default function QualifyThree() {
           <div className="mb-5">
             <label
               htmlFor="study"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-sm font-medium text-gray-900"
             >
               Your Level of Study
             </label>
@@ -65,7 +65,7 @@ export default function QualifyThree() {
               id="study"
               name="study"
               onChange={handleChange}
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
               required
             >
               <option value="">Select Education</option>
@@ -106,7 +106,7 @@ export default function QualifyThree() {
           <div className="mb-5">
             <label
               htmlFor="job"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-sm font-medium text-gray-900"
             >
               Your Profession
             </label>
@@ -114,7 +114,7 @@ export default function QualifyThree() {
               id="job"
               name="job"
               onChange={handleChange}
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
               required
             >
               <option value="">Select Profession</option>
@@ -129,7 +129,7 @@ export default function QualifyThree() {
           <div className="mb-5">
             <label
               htmlFor="salary"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-sm font-medium text-gray-900"
             >
               Your Annual Income
             </label>
@@ -137,7 +137,7 @@ export default function QualifyThree() {
               id="salary"
               name="salary"
               onChange={handleChange}
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
               required
             >
               <option value="">Select Annual Income</option>
@@ -159,7 +159,7 @@ export default function QualifyThree() {
           <div className="mb-5">
             <label
               htmlFor="industry"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-sm font-medium text-gray-900"
             >
               In Which Industry Do You Work
             </label>
@@ -167,7 +167,7 @@ export default function QualifyThree() {
               id="industry"
               name="industry"
               onChange={handleChange}
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
               required
             >
               <option value="">Select Industry</option>
@@ -229,7 +229,7 @@ export default function QualifyThree() {
           <div className="mb-5">
             <label
               htmlFor="role"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-sm font-medium text-gray-900"
             >
               What is your role
             </label>
@@ -237,7 +237,7 @@ export default function QualifyThree() {
               id="role"
               name="role"
               onChange={handleChange}
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
               required
             >
               <option value="">Select Role</option>
@@ -305,7 +305,7 @@ export default function QualifyThree() {
           <div className="mb-5">
             <label
               htmlFor="decesion"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-sm font-medium text-gray-900"
             >
               In Which Department You Make Decesion?
             </label>
@@ -313,7 +313,7 @@ export default function QualifyThree() {
               id="decesion"
               name="decesion"
               onChange={handleChange}
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
               required
             >
               <option value="">Select Department</option>
@@ -342,7 +342,7 @@ export default function QualifyThree() {
           <div className="mb-5">
             <label
               htmlFor="check"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-sm font-medium text-gray-900"
             >
               Write Anything In The Box
             </label>
@@ -352,7 +352,7 @@ export default function QualifyThree() {
               name="check"
               onChange={handleChange}
               placeholder="check"
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
               required
             />
           </div>
