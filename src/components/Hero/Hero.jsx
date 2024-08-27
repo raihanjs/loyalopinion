@@ -1,5 +1,6 @@
 import React from "react";
 import { PrimaryButton } from "../../components/Buttons";
+import { Link } from "react-router-dom";
 
 export default function Hero({ img, title, subTitle }) {
   return (
@@ -20,7 +21,9 @@ export default function Hero({ img, title, subTitle }) {
         <p className="mt-4 text-sm sm:text-md md:text-lg md:text-xl max-w-2xl uppercase">
           {subTitle}
         </p>
-        <PrimaryButton text="Take Survey" />
+        <Link to="/survey">
+          <PrimaryButton text="Take Survey" />
+        </Link>
       </div>
     </section>
   );

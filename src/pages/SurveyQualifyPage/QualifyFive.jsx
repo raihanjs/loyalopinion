@@ -43,7 +43,7 @@ export default function QualifyFive() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    navigate("/survey/qualify-question-5");
+    navigate("/survey/survey90eww79ew9ewre6ew97ew7ew70ew07ew");
   };
 
   return (

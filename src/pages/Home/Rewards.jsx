@@ -4,6 +4,7 @@ import AmazonCard from "../../assets/payment/amazon.png";
 import AppleCard from "../../assets/payment/apple.png";
 import PaypalCard from "../../assets/payment/paypal.png";
 import { WhiteButton } from "../../components/Buttons";
+import { Link } from "react-router-dom";
 
 export default function Rewards() {
   return (
@@ -45,7 +46,9 @@ export default function Rewards() {
           </div>
           {/* See all gift cards */}
           <div className="pb-10">
-            <WhiteButton text="See Our Rewards" />
+            <Link to="/rewards">
+              <WhiteButton text="See Our Rewards" />
+            </Link>
           </div>
         </div>
       </div>

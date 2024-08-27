@@ -180,7 +180,9 @@ export default function AboutPage() {
           help you. If you're not yet a member, sign up for free today!
         </p>
 
-        <PrimaryButton text="Take Survey" />
+        <Link to="/survey">
+          <PrimaryButton text="Take Survey" />
+        </Link>
       </section>
     </>
   );

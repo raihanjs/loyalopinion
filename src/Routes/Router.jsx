@@ -14,6 +14,11 @@ import QualifyTwo from "../pages/SurveyQualifyPage/QualifyTwo";
 import QualifyThree from "../pages/SurveyQualifyPage/QualifyThree";
 import QualifyFour from "../pages/SurveyQualifyPage/QualifyFour";
 import QualifyFive from "../pages/SurveyQualifyPage/QualifyFive";
+import GamesSurveyPage from "../pages/GamesSurveyPage/GamesSurveyPage";
+import GamesSurveyPageTwo from "../pages/GamesSurveyPage/GamesSurveyPageTwo";
+import GamesSurveyPageThree from "../pages/GamesSurveyPage/GamesSurveyPageThree";
+import GamesSurveyPageFour from "../pages/GamesSurveyPage/GamesSurveyPageFour";
+import SuccessSurvey from "../pages/SuccessSurvey/SuccessSurvey";
 
 export const Router = createBrowserRouter([
   {
@@ -73,6 +78,26 @@ export const Router = createBrowserRouter([
       {
         path: "qualify-question-5",
         element: <QualifyFive />,
+      },
+      {
+        path: "survey90eww79ew9ewre6ew97ew7ew70ew07ew",
+        element: <GamesSurveyPage />,
+      },
+      {
+        path: "surve9ew9eww9789ew8ewgeryew7ew70ew07ew",
+        element: <GamesSurveyPageTwo />,
+      },
+      {
+        path: "survey79eiyyfdqh8e8yewrqew9ewre6ew97ew",
+        element: <GamesSurveyPageThree />,
+      },
+      {
+        path: "survey79eiyyfdqresponseyewrqew9ewre6ew",
+        element: <GamesSurveyPageFour />,
+      },
+      {
+        path: "success",
+        element: <SuccessSurvey />,
       },
     ],
   },
