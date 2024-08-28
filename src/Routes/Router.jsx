@@ -19,6 +19,9 @@ import GamesSurveyPageTwo from "../pages/GamesSurveyPage/GamesSurveyPageTwo";
 import GamesSurveyPageThree from "../pages/GamesSurveyPage/GamesSurveyPageThree";
 import GamesSurveyPageFour from "../pages/GamesSurveyPage/GamesSurveyPageFour";
 import SuccessSurvey from "../pages/SuccessSurvey/SuccessSurvey";
+import AuthLayout from "../Layouts/AuthLayout/AuthLayout";
+import SignUp from "../pages/Auth/SignUp/SignUp";
+import ConfirmSignUp from "../pages/Auth/SignUp/ConfirmSignUp";
 
 export const Router = createBrowserRouter([
   {
@@ -98,6 +101,20 @@ export const Router = createBrowserRouter([
       {
         path: "success",
         element: <SuccessSurvey />,
+      },
+    ],
+  },
+  {
+    path: "auth",
+    element: <AuthLayout />,
+    children: [
+      {
+        path: "signup",
+        element: <SignUp />,
+      },
+      {
+        path: "confirm-signup",
+        element: <ConfirmSignUp />,
       },
     ],
   },
