@@ -66,42 +66,42 @@ export const Router = createBrowserRouter([
         path: "/survey",
         element: <QualifyOne />,
       },
-      {
-        path: "qualify-question-2",
-        element: <QualifyTwo />,
-      },
-      {
-        path: "qualify-question-3",
-        element: <QualifyThree />,
-      },
-      {
-        path: "qualify-question-4",
-        element: <QualifyFour />,
-      },
-      {
-        path: "qualify-question-5",
-        element: <QualifyFive />,
-      },
-      {
-        path: "survey90eww79ew9ewre6ew97ew7ew70ew07ew",
-        element: <GamesSurveyPage />,
-      },
-      {
-        path: "surve9ew9eww9789ew8ewgeryew7ew70ew07ew",
-        element: <GamesSurveyPageTwo />,
-      },
-      {
-        path: "survey79eiyyfdqh8e8yewrqew9ewre6ew97ew",
-        element: <GamesSurveyPageThree />,
-      },
-      {
-        path: "survey79eiyyfdqresponseyewrqew9ewre6ew",
-        element: <GamesSurveyPageFour />,
-      },
-      {
-        path: "success",
-        element: <SuccessSurvey />,
-      },
+      // {
+      //   path: "qualify-question-2",
+      //   element: <QualifyTwo />,
+      // },
+      // {
+      //   path: "qualify-question-3",
+      //   element: <QualifyThree />,
+      // },
+      // {
+      //   path: "qualify-question-4",
+      //   element: <QualifyFour />,
+      // },
+      // {
+      //   path: "qualify-question-5",
+      //   element: <QualifyFive />,
+      // },
+      // {
+      //   path: "survey90eww79ew9ewre6ew97ew7ew70ew07ew",
+      //   element: <GamesSurveyPage />,
+      // },
+      // {
+      //   path: "surve9ew9eww9789ew8ewgeryew7ew70ew07ew",
+      //   element: <GamesSurveyPageTwo />,
+      // },
+      // {
+      //   path: "survey79eiyyfdqh8e8yewrqew9ewre6ew97ew",
+      //   element: <GamesSurveyPageThree />,
+      // },
+      // {
+      //   path: "survey79eiyyfdqresponseyewrqew9ewre6ew",
+      //   element: <GamesSurveyPageFour />,
+      // },
+      // {
+      //   path: "success",
+      //   element: <SuccessSurvey />,
+      // },
     ],
   },
   {
