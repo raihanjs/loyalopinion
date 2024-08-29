@@ -123,7 +123,7 @@ export default function Career() {
                   No Experience Required
                 </p>
                 <p className="py-2 px-5 mb-2 rounded-md bg-cyan-50 font-medium">
-                  Tk. 15,000 - 25,000 (Monthly)
+                  USD 30,000 - 40,000 (Yearly)
                 </p>
               </div>
 
@@ -133,7 +133,7 @@ export default function Career() {
                   September 21, 2024
                 </p>
 
-                <Link to="">
+                <Link to="/career/customer-service-representative">
                   <p className="flex items-center gap-2 hover:text-red-500 font-medium">
                     Details <BsArrowRight />
                   </p>
@@ -155,7 +155,7 @@ export default function Career() {
                   No Experience Required
                 </p>
                 <p className="py-2 px-5 mb-2 rounded-md bg-cyan-50 font-medium">
-                  Tk. 15,000 - 25,000 (Monthly)
+                  USD 30,000 - 40,000 (Yearly)
                 </p>
               </div>
 
@@ -187,7 +187,7 @@ export default function Career() {
                   2 to 3 yearss experienced
                 </p>
                 <p className="py-2 px-5 mb-2 rounded-md bg-cyan-50 font-medium">
-                  Tk. 15,000 - 25,000 (Monthly)
+                  USD 30,000 - 40,000 (Yearly)
                 </p>
               </div>
 
@@ -219,7 +219,7 @@ export default function Career() {
                   0 to 6 months experienced
                 </p>
                 <p className="py-2 px-5 mb-2 rounded-md bg-cyan-50 font-medium">
-                  Tk. 15,000 - 25,000 (Monthly)
+                  USD 30,000 - 40,000 (Yearly)
                 </p>
               </div>
 
@@ -251,7 +251,7 @@ export default function Career() {
                   0 to 3 yearss experienced
                 </p>
                 <p className="py-2 px-5 mb-2 rounded-md bg-cyan-50 font-medium">
-                  Tk. 15,000 - 25,000 (Monthly)
+                  USD 30,000 - 40,000 (Yearly)
                 </p>
               </div>
 
@@ -283,7 +283,7 @@ export default function Career() {
                   0 to 3 yearss experienced
                 </p>
                 <p className="py-2 px-5 mb-2 rounded-md bg-cyan-50 font-medium">
-                  Tk. 15,000 - 25,000 (Monthly)
+                  USD 30,000 - 40,000 (Yearly)
                 </p>
               </div>
 
@@ -315,7 +315,7 @@ export default function Career() {
                   2 to 3 yearss experienced
                 </p>
                 <p className="py-2 px-5 mb-2 rounded-md bg-cyan-50 font-medium">
-                  Tk. 15,000 - 25,000 (Monthly)
+                  USD 30,000 - 40,000 (Yearly)
                 </p>
               </div>
 

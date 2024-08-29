@@ -28,3 +28,31 @@ export default function Hero({ img, title, subTitle }) {
     </section>
   );
 }
+
+import JobBG from "../../assets/job-details-banner.svg";
+export function JobBanner({ title }) {
+  return (
+    <section
+      className="relative h-[350px] sm:h-[350px] bg-cover bg-center overflow-hidden"
+      style={{
+        backgroundImage: `url('${JobBG}')`,
+      }}
+    >
+      <div className="bg-slate-900/75 py-40">
+        <div className="container">
+          <h1 className="text-white text-2xl sm:text-3xl font-bold">{title}</h1>
+
+          <div className="sm:flex gap-5 text-white font-medium mt-5">
+            <p>Job Type: Full Time</p>
+            <p>Deadline : September 21, 2024</p>
+          </div>
+
+          <p className="text-white font-medium">
+            For Any Queries Email:
+            <span className="text-[#d81033]"> info@loyalopinion.com</span>
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}

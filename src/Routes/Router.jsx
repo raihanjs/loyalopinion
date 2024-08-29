@@ -23,6 +23,7 @@ import AuthLayout from "../Layouts/AuthLayout/AuthLayout";
 import SignUp from "../pages/Auth/SignUp/SignUp";
 import ConfirmSignUp from "../pages/Auth/SignUp/ConfirmSignUp";
 import Career from "../pages/Career/Career";
+import CustomerServiceRepresentative from "../pages/Jobs/CustomerServiceRepresentative";
 
 export const Router = createBrowserRouter([
   {
@@ -60,6 +61,10 @@ export const Router = createBrowserRouter([
       {
         path: "/career",
         element: <Career />,
+      },
+      {
+        path: "/career/customer-service-representative",
+        element: <CustomerServiceRepresentative />,
       },
     ],
   },
