@@ -155,7 +155,7 @@ export default function Career() {
                   No Experience Required
                 </p>
                 <p className="py-2 px-5 mb-2 rounded-md bg-cyan-50 font-medium">
-                  USD 30,000 - 40,000 (Yearly)
+                  USD 35,000 - 45,000 (Yearly)
                 </p>
               </div>
 
@@ -165,7 +165,7 @@ export default function Career() {
                   September 21, 2024
                 </p>
 
-                <Link to="">
+                <Link to="/career/social-media-manager">
                   <p className="flex items-center gap-2 hover:text-red-500 font-medium">
                     Details <BsArrowRight />
                   </p>
@@ -184,10 +184,10 @@ export default function Career() {
               </div>
               <div className="mt-12 mb-12">
                 <p className="py-2 px-5 mb-2 rounded-md bg-cyan-50 font-medium">
-                  2 to 3 yearss experienced
+                  1 to 3 yearss experienced
                 </p>
                 <p className="py-2 px-5 mb-2 rounded-md bg-cyan-50 font-medium">
-                  USD 30,000 - 40,000 (Yearly)
+                  USD 45,000 - 60,000 (Yearly)
                 </p>
               </div>
 
@@ -197,7 +197,7 @@ export default function Career() {
                   September 21, 2024
                 </p>
 
-                <Link to="">
+                <Link to="/career/technical-support-executive">
                   <p className="flex items-center gap-2 hover:text-red-500 font-medium">
                     Details <BsArrowRight />
                   </p>
@@ -219,7 +219,7 @@ export default function Career() {
                   0 to 6 months experienced
                 </p>
                 <p className="py-2 px-5 mb-2 rounded-md bg-cyan-50 font-medium">
-                  USD 30,000 - 40,000 (Yearly)
+                  USD 40,000 - 50,000 (Yearly)
                 </p>
               </div>
 
@@ -229,7 +229,7 @@ export default function Career() {
                   September 21, 2024
                 </p>
 
-                <Link to="">
+                <Link to="/career/sales-marketing-executive">
                   <p className="flex items-center gap-2 hover:text-red-500 font-medium">
                     Details <BsArrowRight />
                   </p>
@@ -251,7 +251,7 @@ export default function Career() {
                   0 to 3 yearss experienced
                 </p>
                 <p className="py-2 px-5 mb-2 rounded-md bg-cyan-50 font-medium">
-                  USD 30,000 - 40,000 (Yearly)
+                  USD 35,000 - 45,000 (Yearly)
                 </p>
               </div>
 
@@ -261,7 +261,7 @@ export default function Career() {
                   September 21, 2024
                 </p>
 
-                <Link to="">
+                <Link to="/career/digital-marketer">
                   <p className="flex items-center gap-2 hover:text-red-500 font-medium">
                     Details <BsArrowRight />
                   </p>
@@ -283,7 +283,7 @@ export default function Career() {
                   0 to 3 yearss experienced
                 </p>
                 <p className="py-2 px-5 mb-2 rounded-md bg-cyan-50 font-medium">
-                  USD 30,000 - 40,000 (Yearly)
+                  USD 50,000 - 90,000 (Yearly)
                 </p>
               </div>
 
@@ -293,7 +293,7 @@ export default function Career() {
                   September 21, 2024
                 </p>
 
-                <Link to="">
+                <Link to="/career/graphics-designer">
                   <p className="flex items-center gap-2 hover:text-red-500 font-medium">
                     Details <BsArrowRight />
                   </p>
@@ -315,7 +315,7 @@ export default function Career() {
                   2 to 3 yearss experienced
                 </p>
                 <p className="py-2 px-5 mb-2 rounded-md bg-cyan-50 font-medium">
-                  USD 30,000 - 40,000 (Yearly)
+                  USD 50,000 - 90,000 (Yearly)
                 </p>
               </div>
 
@@ -325,7 +325,7 @@ export default function Career() {
                   September 21, 2024
                 </p>
 
-                <Link to="">
+                <Link to="/career/ux-designer">
                   <p className="flex items-center gap-2 hover:text-red-500 font-medium">
                     Details <BsArrowRight />
                   </p>

@@ -24,6 +24,12 @@ import SignUp from "../pages/Auth/SignUp/SignUp";
 import ConfirmSignUp from "../pages/Auth/SignUp/ConfirmSignUp";
 import Career from "../pages/Career/Career";
 import CustomerServiceRepresentative from "../pages/Jobs/CustomerServiceRepresentative";
+import SocialMediaManager from "../pages/Jobs/SocialMediaManager";
+import TechnicalSupportExecutive from "../pages/Jobs/TechnicalSupportExecutive";
+import SalesMarketingExecutive from "../pages/Jobs/SalesMarketingExecutive";
+import UXDesigner from "../pages/Jobs/UXDesigner";
+import GraphicsDesigner from "../pages/Jobs/GraphicsDesigner";
+import DigitlamMarketer from "../pages/Jobs/DigitlamMarketer";
 
 export const Router = createBrowserRouter([
   {
@@ -65,6 +71,30 @@ export const Router = createBrowserRouter([
       {
         path: "/career/customer-service-representative",
         element: <CustomerServiceRepresentative />,
+      },
+      {
+        path: "/career/social-media-manager",
+        element: <SocialMediaManager />,
+      },
+      {
+        path: "/career/technical-support-executive",
+        element: <TechnicalSupportExecutive />,
+      },
+      {
+        path: "/career/digital-marketer",
+        element: <DigitlamMarketer />,
+      },
+      {
+        path: "/career/graphics-designer",
+        element: <GraphicsDesigner />,
+      },
+      {
+        path: "/career/sales-marketing-executive",
+        element: <SalesMarketingExecutive />,
+      },
+      {
+        path: "/career/ux-designer",
+        element: <UXDesigner />,
       },
     ],
   },
