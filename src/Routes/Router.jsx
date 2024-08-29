@@ -31,6 +31,7 @@ import UXDesigner from "../pages/Jobs/UXDesigner";
 import GraphicsDesigner from "../pages/Jobs/GraphicsDesigner";
 import DigitlamMarketer from "../pages/Jobs/DigitlamMarketer";
 import OnlyRefer from "../pages/SurveyQualifyPage/OnlyRefer";
+import Veriff from "../pages/Veriff/Veriff";
 
 export const Router = createBrowserRouter([
   {
@@ -146,6 +147,10 @@ export const Router = createBrowserRouter([
       {
         path: "success",
         element: <SuccessSurvey />,
+      },
+      {
+        path: "verification",
+        element: <Veriff />,
       },
     ],
   },

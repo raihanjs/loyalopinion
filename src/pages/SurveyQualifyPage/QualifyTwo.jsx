@@ -61,6 +61,7 @@ export default function QualifyTwo() {
       phone,
     };
 
+    // fetch("http://localhost:5000/surveys", {
     fetch("https://loyalopinion-server.vercel.app/surveys", {
       method: "POST",
       headers: {

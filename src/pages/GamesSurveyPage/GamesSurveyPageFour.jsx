@@ -6,7 +6,7 @@ export default function GamesSurveyPageFour() {
   const navigate = useNavigate();
   const handleSubmit = (event) => {
     event.preventDefault();
-    navigate("/survey/success");
+    navigate("/survey/verification");
   };
   return (
     <section>
