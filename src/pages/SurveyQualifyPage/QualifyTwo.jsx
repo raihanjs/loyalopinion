@@ -43,7 +43,35 @@ export default function QualifyTwo() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    navigate("/survey/qualify-question-3");
+    const form = event.target;
+
+    const name = form.name.value;
+    const age = form.age.value;
+    const state = form.state.value;
+    const zip = form.zip.value;
+    const email = form.email.value;
+    const phone = form.phone.value;
+
+    const surveyUser = {
+      name,
+      age,
+      state,
+      zip,
+      email,
+      phone,
+    };
+
+    fetch("https://loyalopinion-server.vercel.app/surveys", {
+      method: "POST",
+      headers: {
+        "Content-type": "application/json",
+      },
+      body: JSON.stringify(surveyUser),
+    })
+      .then((res) => {
+        navigate("/survey/qualify-question-3");
+      })
+      .catch((err) => console.log(err));
   };
 
   return (
@@ -212,6 +240,23 @@ export default function QualifyTwo() {
               name="zip"
               onChange={handleChange}
               placeholder="29401"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
+              required
+            />
+          </div>
+          <div className="mb-5">
+            <label
+              htmlFor="email"
+              className="block mb-2 text-sm font-medium text-gray-900"
+            >
+              Your Email
+            </label>
+            <input
+              type="mail"
+              id="email"
+              name="email"
+              onChange={handleChange}
+              placeholder="john@mail.com"
               className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
               required
             />
