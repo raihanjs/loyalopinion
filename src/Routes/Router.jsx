@@ -22,6 +22,7 @@ import SuccessSurvey from "../pages/SuccessSurvey/SuccessSurvey";
 import AuthLayout from "../Layouts/AuthLayout/AuthLayout";
 import SignUp from "../pages/Auth/SignUp/SignUp";
 import ConfirmSignUp from "../pages/Auth/SignUp/ConfirmSignUp";
+import Career from "../pages/Career/Career";
 
 export const Router = createBrowserRouter([
   {
@@ -55,6 +56,10 @@ export const Router = createBrowserRouter([
       {
         path: "/privacy",
         element: <PrivacyPage />,
+      },
+      {
+        path: "/career",
+        element: <Career />,
       },
     ],
   },
