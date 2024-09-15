@@ -32,6 +32,7 @@ import GraphicsDesigner from "../pages/Jobs/GraphicsDesigner";
 import DigitlamMarketer from "../pages/Jobs/DigitlamMarketer";
 import OnlyRefer from "../pages/SurveyQualifyPage/OnlyRefer";
 import Veriff from "../pages/Veriff/Veriff";
+import VerifyMemberOne from "../pages/VerifyPages/VerifyMemberOne";
 
 export const Router = createBrowserRouter([
   {
@@ -65,6 +66,10 @@ export const Router = createBrowserRouter([
       {
         path: "/privacy",
         element: <PrivacyPage />,
+      },
+      {
+        path: "/verify-applicants-183473",
+        element: <VerifyMemberOne />,
       },
       {
         path: "/career",
