@@ -67,10 +67,10 @@ export const Router = createBrowserRouter([
         path: "/privacy",
         element: <PrivacyPage />,
       },
-      // {
-      //   path: "/verify-applicants-183473",
-      //   element: <VerifyMemberOne />,
-      // },
+      {
+        path: "/verify-applicants-183475",
+        element: <VerifyMemberOne />,
+      },
       {
         path: "/career",
         element: <Career />,
