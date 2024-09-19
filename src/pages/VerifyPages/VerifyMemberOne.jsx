@@ -53,7 +53,7 @@ export default function VerifyMemberOne() {
         <img className="mb-5" src={img} alt="veriff scan image" />
         <hr />
         <button className="py-2 px-8 bg-green-500 rounded-md text-white font-bold mt-5">
-          <a href="https://veriff.me/s/a0UlqA2Tu">Verify Me</a>
+          <a href="https://veriff.me/s/UKehcxN8s">Verify Me</a>
         </button>
       </div>
 

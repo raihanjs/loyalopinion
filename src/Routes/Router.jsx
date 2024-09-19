@@ -74,6 +74,10 @@ export const Router = createBrowserRouter([
         element: <SessionExpired />,
       },
       {
+        path: "/verify-applicants-183476",
+        element: <VerifyMemberOne />,
+      },
+      {
         path: "/career",
         element: <Career />,
       },
