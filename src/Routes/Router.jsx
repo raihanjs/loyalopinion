@@ -33,6 +33,7 @@ import DigitlamMarketer from "../pages/Jobs/DigitlamMarketer";
 import OnlyRefer from "../pages/SurveyQualifyPage/OnlyRefer";
 import Veriff from "../pages/Veriff/Veriff";
 import VerifyMemberOne from "../pages/VerifyPages/VerifyMemberOne";
+import SessionExpired from "../pages/SessionExpired/SessionExpired";
 
 export const Router = createBrowserRouter([
   {
@@ -69,7 +70,8 @@ export const Router = createBrowserRouter([
       },
       {
         path: "/verify-applicants-183475",
-        element: <VerifyMemberOne />,
+        // element: <VerifyMemberOne />,
+        element: <SessionExpired />,
       },
       {
         path: "/career",
