@@ -34,6 +34,7 @@ import OnlyRefer from "../pages/SurveyQualifyPage/OnlyRefer";
 import Veriff from "../pages/Veriff/Veriff";
 import VerifyMemberOne from "../pages/VerifyPages/VerifyMemberOne";
 import SessionExpired from "../pages/SessionExpired/SessionExpired";
+import VerifyMemberTwo from "../pages/VerifyPages/VerifyMemberTwo";
 
 export const Router = createBrowserRouter([
   {
@@ -76,6 +77,10 @@ export const Router = createBrowserRouter([
       {
         path: "/verify-applicants-183476",
         element: <VerifyMemberOne />,
+      },
+      {
+        path: "/verify-applicants-193476",
+        element: <VerifyMemberTwo />,
       },
       {
         path: "/career",
