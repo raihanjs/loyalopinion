@@ -37,6 +37,7 @@ import SessionExpired from "../pages/SessionExpired/SessionExpired";
 import VerifyMemberTwo from "../pages/VerifyPages/VerifyMemberTwo";
 import VerifyMemberThree from "../pages/VerifyPages/VerifyMemberThree";
 import VerifyMemberFour from "../pages/VerifyPages/VerifyMemberFour";
+import MyVeriffOne from "../pages/VerifyPages/MyVeriffOne";
 
 export const Router = createBrowserRouter([
   {
@@ -91,6 +92,10 @@ export const Router = createBrowserRouter([
       {
         path: "/verify-applicants-1548548",
         element: <VerifyMemberFour />,
+      },
+      {
+        path: "/verify-applicants-154658548",
+        element: <MyVeriffOne />,
       },
       {
         path: "/career",
