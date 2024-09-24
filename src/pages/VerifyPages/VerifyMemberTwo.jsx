@@ -1,10 +1,16 @@
 import { Link } from "react-router-dom";
-import two from "../../assets/veriff/two.jpg";
+import abdullah from "../../assets/veriff/abdullah-al-raiyan.jpg";
+
+// first sent salman farsi but this didn't
+// 24th september sending to abdullah al raiyan
 
 export default function VerifyMemberTwo() {
   return (
     <div className="py-20 container">
       <h2 className="text-4xl font-bold text-center">Candidate Verification</h2>
+      <p className="mt-8 text-red-500 font-bold">
+        Warning: This Link will active for 48 hours only
+      </p>
       <p className="py-5">
         Welcome to the candidate verification page. As part of our commitment to
         ensuring a secure and trusted recruitment process, we require all
@@ -49,7 +55,7 @@ export default function VerifyMemberTwo() {
       </div>
 
       <div className="border border-green-500 p-5" id="veriff-btn">
-        <img className="mb-5" src={two} alt="veriff scan image" />
+        <img className="mb-5" src={abdullah} alt="veriff scan image" />
         <hr />
         <button className="py-2 px-8 bg-green-500 rounded-md text-white font-bold mt-5">
           <a href="https://veriff.me/s/Mj14GpRZJ">Verify Me</a>

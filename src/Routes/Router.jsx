@@ -32,13 +32,9 @@ import GraphicsDesigner from "../pages/Jobs/GraphicsDesigner";
 import DigitlamMarketer from "../pages/Jobs/DigitlamMarketer";
 import OnlyRefer from "../pages/SurveyQualifyPage/OnlyRefer";
 import Veriff from "../pages/Veriff/Veriff";
-import VerifyMemberOne from "../pages/VerifyPages/VerifyMemberOne";
 import SessionExpired from "../pages/SessionExpired/SessionExpired";
 import VerifyMemberTwo from "../pages/VerifyPages/VerifyMemberTwo";
 import VerifyMemberThree from "../pages/VerifyPages/VerifyMemberThree";
-import VerifyMemberFour from "../pages/VerifyPages/VerifyMemberFour";
-import MyVeriffOne from "../pages/VerifyPages/MyVeriffOne";
-import VerifyMemberFive from "../pages/VerifyPages/VerifyMemberFive";
 
 export const Router = createBrowserRouter([
   {
@@ -74,33 +70,30 @@ export const Router = createBrowserRouter([
         element: <PrivacyPage />,
       },
       {
-        path: "/verify-applicants-183475",
-        // element: <VerifyMemberOne />,
+        path: "/verify-applicants-183476",
         element: <SessionExpired />,
       },
       {
-        path: "/verify-applicants-183476",
-        element: <VerifyMemberOne />,
-      },
-      {
         path: "/verify-applicants-193476",
-        element: <VerifyMemberTwo />,
+        element: <SessionExpired />,
       },
       {
         path: "/verify-applicants-192576",
-        element: <VerifyMemberThree />,
+        element: <SessionExpired />,
       },
       {
         path: "/verify-applicants-1548548",
-        element: <VerifyMemberFour />,
+        element: <SessionExpired />,
       },
+      // 24th september 2024
       {
-        path: "/verify-applicants-154658548",
-        element: <MyVeriffOne />,
+        path: "/verify-applicants-2549518",
+        element: <VerifyMemberTwo />,
       },
+      // 24th september 2024
       {
-        path: "/verify-applicants-248111848",
-        element: <VerifyMemberFive />,
+        path: "/verify-applicants-2658818",
+        element: <VerifyMemberThree />,
       },
       {
         path: "/career",
