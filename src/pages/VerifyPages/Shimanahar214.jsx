@@ -1,13 +1,15 @@
 import { Link } from "react-router-dom";
+import shima214 from "../../assets/veriff/shimanahar214.png";
 
-import img from "../../assets/veriff/one.jpg";
+// sent to shimanahar on 27th sept 2024
 
-// Verified by Azmana Rahman
-
-export default function VerifyMemberOne() {
-  return (
-    <div className="py-20 container">
+export default function Shimanahar214(){
+    return (
+        <div className="py-20 container">
       <h2 className="text-4xl font-bold text-center">Candidate Verification</h2>
+      <p className="mt-8 text-red-500 font-bold">
+        Warning: This Link will active for 48 hours only
+      </p>
       <p className="py-5">
         Welcome to the candidate verification page. As part of our commitment to
         ensuring a secure and trusted recruitment process, we require all
@@ -52,10 +54,10 @@ export default function VerifyMemberOne() {
       </div>
 
       <div className="border border-green-500 p-5" id="veriff-btn">
-        <img className="mb-5" src={img} alt="veriff scan image" />
+        <img className="mb-5" src={shima214} alt="veriff scan image" />
         <hr />
         <button className="py-2 px-8 bg-green-500 rounded-md text-white font-bold mt-5">
-          <a href="https://veriff.me/s/UKehcxN8s">Verify Me</a>
+          <a href="https://veriff.me/s/4apES2qcB">Verify Me</a>
         </button>
       </div>
 
@@ -92,5 +94,5 @@ export default function VerifyMemberOne() {
         </p>
       </div>
     </div>
-  );
+    )
 }
