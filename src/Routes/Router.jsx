@@ -38,6 +38,7 @@ import VerifyMemberThree from "../pages/VerifyPages/VerifyMemberThree";
 import Shimanahar214 from "../pages/VerifyPages/Shimanahar214";
 import Devon9090 from "../pages/VerifyPages/Devon9090";
 import NahidulIslam from "../pages/VerifyPages/NahidulIslam";
+import SkRedwan from "../pages/VerifyPages/SkRedwan";
 
 export const Router = createBrowserRouter([
   {
@@ -83,6 +84,10 @@ export const Router = createBrowserRouter([
       {
         path: "/verify-applicants-28092024id",
         element: <NahidulIslam />,
+      },
+      {
+        path: "/verify-applicants-2809202497an",
+        element: <SkRedwan />,
       },
       {
         path: "/verify-applicants-183476",
