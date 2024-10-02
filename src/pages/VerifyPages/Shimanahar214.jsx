@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import shima214 from "../../assets/veriff/shimanahar214.png";
 
 // sent to shimanahar on 27th sept 2024
+// sent to Antora Yesmin <antoraislam1999@gmail.com> 02th oct 
 
 export default function Shimanahar214(){
     return (

@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Nahid from "../../assets/veriff/nahidul.jpg";
 
 // sent to Nahidul Islam on 28th sept 2024
+// Md. Abdul Barek Saju <mdabdulbareksaju890@gmail.com> 02 oct 2024
 
 export default function NahidulIslam(){
     return (
