@@ -86,7 +86,7 @@ export default function Career() {
               </div>
               <p className="mt-4     mb-2 font-bold text-xl">Offer</p>
               <p>
-                After a successful interview, you'll get a job offer at Loyal
+                After a successful interview, youll get a job offer at Loyal
                 Opinion.
               </p>
             </div>
@@ -100,7 +100,7 @@ export default function Career() {
           <div className="md:w-8/12 mx-auto text-center">
             <SectionTitleRedBlack black="Career" red="Openings" />
             <p className="mt-5 text-justify md:text-center">
-              We're always looking for creative, talented self-starters to join
+              Were always looking for creative, talented self-starters to join
               the Loyal Opinion family. Check out our open roles below and fill
               out an application.
             </p>

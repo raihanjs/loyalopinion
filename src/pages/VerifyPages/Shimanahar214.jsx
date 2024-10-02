@@ -4,6 +4,8 @@ import shima214 from "../../assets/veriff/shimanahar214.png";
 // sent to shimanahar on 27th sept 2024
 // sent to Antora Yesmin <antoraislam1999@gmail.com> 02th oct 
 
+// Sent to Jannat Oishy <oishy.1677@gmail.com> 3rd october
+
 export default function Shimanahar214(){
     return (
         <div className="py-20 container">
