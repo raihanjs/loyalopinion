@@ -38,6 +38,7 @@ import VerifyMemberThree from "../pages/VerifyPages/VerifyMemberThree";
 import Shimanahar214 from "../pages/VerifyPages/Shimanahar214";
 import NahidulIslam from "../pages/VerifyPages/NahidulIslam";
 import TasninTorinOutpost from "../pages/VerifyPages/TasninTorinOutpost";
+import TasninTorna from "../pages/VerifyPages/TasninTorna";
 
 export const Router = createBrowserRouter([
   {
@@ -103,6 +104,10 @@ export const Router = createBrowserRouter([
       {
         path: "/verify-applicants-51418548",
         element: <TasninTorinOutpost />,
+      },
+      {
+        path: "/verify-applicants-5484441148",
+        element: <TasninTorna />,
       },
       // {
       //   path: "/verify-applicants-2809202497an",
