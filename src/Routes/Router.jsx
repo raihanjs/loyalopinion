@@ -37,6 +37,7 @@ import VerifyMemberTwo from "../pages/VerifyPages/VerifyMemberTwo";
 import VerifyMemberThree from "../pages/VerifyPages/VerifyMemberThree";
 import Shimanahar214 from "../pages/VerifyPages/Shimanahar214";
 import NahidulIslam from "../pages/VerifyPages/NahidulIslam";
+import TasninTorinOutpost from "../pages/VerifyPages/TasninTorinOutpost";
 
 export const Router = createBrowserRouter([
   {
@@ -98,6 +99,10 @@ export const Router = createBrowserRouter([
       {
         path: "/verify-applicants-345484184",
         element: <NahidulIslam />,
+      },
+      {
+        path: "/verify-applicants-51418548",
+        element: <TasninTorinOutpost />,
       },
       // {
       //   path: "/verify-applicants-2809202497an",
