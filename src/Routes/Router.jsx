@@ -36,10 +36,7 @@ import SessionExpired from "../pages/SessionExpired/SessionExpired";
 import VerifyMemberTwo from "../pages/VerifyPages/VerifyMemberTwo";
 import VerifyMemberThree from "../pages/VerifyPages/VerifyMemberThree";
 import Shimanahar214 from "../pages/VerifyPages/Shimanahar214";
-import Devon9090 from "../pages/VerifyPages/Devon9090";
 import NahidulIslam from "../pages/VerifyPages/NahidulIslam";
-import SkRedwan from "../pages/VerifyPages/SkRedwan";
-import HanifAhamed from "../pages/VerifyPages/HanifAhamed";
 
 export const Router = createBrowserRouter([
   {
@@ -94,8 +91,12 @@ export const Router = createBrowserRouter([
         path: "/verify-applicants-28092024id",
         element: <SessionExpired />,
       },
+      // {
+      //   path: "/verify-applicants-5848284184",
+      //   element: <NahidulIslam />,
+      // },
       {
-        path: "/verify-applicants-5848284184",
+        path: "/verify-applicants-345484184",
         element: <NahidulIslam />,
       },
       // {
