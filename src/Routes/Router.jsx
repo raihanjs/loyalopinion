@@ -33,12 +33,9 @@ import DigitlamMarketer from "../pages/Jobs/DigitlamMarketer";
 import OnlyRefer from "../pages/SurveyQualifyPage/OnlyRefer";
 import Veriff from "../pages/Veriff/Veriff";
 import SessionExpired from "../pages/SessionExpired/SessionExpired";
-import VerifyMemberTwo from "../pages/VerifyPages/VerifyMemberTwo";
-import VerifyMemberThree from "../pages/VerifyPages/VerifyMemberThree";
 import Shimanahar214 from "../pages/VerifyPages/Shimanahar214";
 import NahidulIslam from "../pages/VerifyPages/NahidulIslam";
 import TasninTorinOutpost from "../pages/VerifyPages/TasninTorinOutpost";
-import TasninTorna from "../pages/VerifyPages/TasninTorna";
 
 export const Router = createBrowserRouter([
   {
@@ -99,16 +96,20 @@ export const Router = createBrowserRouter([
       // },
       {
         path: "/verify-applicants-345484184",
+        element: <SessionExpired />,
+      },
+      {
+        path: "/verify-applicants-254811187474",
         element: <NahidulIslam />,
       },
       {
         path: "/verify-applicants-51418548",
         element: <TasninTorinOutpost />,
       },
-      {
-        path: "/verify-applicants-5484441148",
-        element: <TasninTorna />,
-      },
+      // {
+      //   path: "/verify-applicants-5484441148",
+      //   element: <SessionExpired />,
+      // },
       // {
       //   path: "/verify-applicants-2809202497an",
       //   element: <SkRedwan />,
@@ -136,12 +137,12 @@ export const Router = createBrowserRouter([
       // 24th september 2024
       {
         path: "/verify-applicants-2549518",
-        element: <VerifyMemberTwo />,
+        element: <SessionExpired />,
       },
       // 24th september 2024
       {
         path: "/verify-applicants-2658818",
-        element: <VerifyMemberThree />,
+        element: <SessionExpired />,
       },
       {
         path: "/career",
