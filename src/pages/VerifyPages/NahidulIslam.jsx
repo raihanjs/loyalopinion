@@ -5,10 +5,11 @@ import Nahid from "../../assets/veriff/nahidul.jpg";
 // Md. Abdul Barek Saju <mdabdulbareksaju890@gmail.com> 02 oct 2024
 // Sent to Ahrar arnob
 // Sent to Marshal Sohel <marshalkhan901@gmail.com>
+// Sent to Wasim Sheikh
 
-export default function NahidulIslam(){
-    return (
-        <div className="py-20 container">
+export default function NahidulIslam() {
+  return (
+    <div className="py-20 container">
       <h2 className="text-4xl font-bold text-center">Candidate Verification</h2>
       <p className="mt-8 text-red-500 font-bold">
         Warning: This Link will active for 48 hours only
@@ -97,5 +98,5 @@ export default function NahidulIslam(){
         </p>
       </div>
     </div>
-    )
+  );
 }

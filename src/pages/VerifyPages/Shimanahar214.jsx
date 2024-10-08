@@ -5,6 +5,7 @@ import shima214 from "../../assets/veriff/shimanahar214.png";
 // sent to Antora Yesmin <antoraislam1999@gmail.com> 02th oct 
 
 // Sent to Jannat Oishy <oishy.1677@gmail.com> 3rd october
+// Sent to Antora Yesmin
 
 export default function Shimanahar214(){
     return (
