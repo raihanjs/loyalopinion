@@ -1,15 +1,16 @@
 import { Link } from "react-router-dom";
-import shima214 from "../../assets/veriff/shimanahar214.png";
+import shima214 from "../../assets/veriff/shima-nahar-214.jpg";
 
 // sent to shimanahar on 27th sept 2024
-// sent to Antora Yesmin <antoraislam1999@gmail.com> 02th oct 
+// sent to Antora Yesmin <antoraislam1999@gmail.com> 02th oct
 
 // Sent to Jannat Oishy <oishy.1677@gmail.com> 3rd october
 // Sent to Antora Yesmin
+// Again Sent to Antora Yesmin
 
-export default function Shimanahar214(){
-    return (
-        <div className="py-20 container">
+export default function Shimanahar214() {
+  return (
+    <div className="py-20 container">
       <h2 className="text-4xl font-bold text-center">Candidate Verification</h2>
       <p className="mt-8 text-red-500 font-bold">
         Warning: This Link will active for 48 hours only
@@ -61,7 +62,7 @@ export default function Shimanahar214(){
         <img className="mb-5" src={shima214} alt="veriff scan image" />
         <hr />
         <button className="py-2 px-8 bg-green-500 rounded-md text-white font-bold mt-5">
-          <a href="https://veriff.me/s/4apES2qcB">Verify Me</a>
+          <a href="https://veriff.me/s/2vyA5A22b">Verify Me</a>
         </button>
       </div>
 
@@ -98,5 +99,5 @@ export default function Shimanahar214(){
         </p>
       </div>
     </div>
-    )
+  );
 }
