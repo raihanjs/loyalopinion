@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
-import Nahid from "../../assets/veriff/nahidul.jpg";
+import Nahid from "../../assets/veriff/nahid-islam.png";
 
 // sent to Nahidul Islam on 28th sept 2024
 // Md. Abdul Barek Saju <mdabdulbareksaju890@gmail.com> 02 oct 2024
 // Sent to Ahrar arnob
 // Sent to Marshal Sohel <marshalkhan901@gmail.com>
 // Sent to Wasim Sheikh
+// Sent To Sajek
 
 export default function NahidulIslam() {
   return (
@@ -61,7 +62,7 @@ export default function NahidulIslam() {
         <img className="mb-5" src={Nahid} alt="veriff scan image" />
         <hr />
         <button className="py-2 px-8 bg-green-500 rounded-md text-white font-bold mt-5">
-          <a href="https://veriff.me/s/Hjt8miRL5">Verify Me</a>
+          <a href="https://veriff.me/s/R5LLp2nus">Verify Me</a>
         </button>
       </div>
 
